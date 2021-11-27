@@ -1,9 +1,23 @@
 # SpringBoot_Flutter
 
+Access to database with API Rest spring boot via flutter application
 manage student , class, formation and user 
-Connecting Flutter with Spring Boot REST API 
+Connecting Flutter with Spring Boot REST API
 
-# Tools and tech 
+## Technical requirements (Tech & Tools)
+<div>
+  <ul>
+In order to start with Flutter, we need a few tools:
+<li> A PC with a recent Windows version, or a Mac with a recent version of the macOS or
+  Linux operating system. we can also use a Chrome OS machine, with a few tweaks.</li>
+<li> An Android/iOS setup.</li>
+<li> The Flutter SDK. It's free, light, and open source.</li>
+<li> Physical device/emulator/simulator</li>
+<li> Android Studio/IntelliJ IDEA or Visual Studio Code</li>
+  </ul>
+</div>
+
+
 
   <img src="https://img.icons8.com/color/48/4a90e2/spring-logo.png"/>&nbsp; &nbsp;
   <img src="https://img.icons8.com/color/48/000000/flutter.png"/> &nbsp; &nbsp;
