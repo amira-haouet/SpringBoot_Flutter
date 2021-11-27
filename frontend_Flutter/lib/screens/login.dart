@@ -17,8 +17,8 @@ class _LoginState extends State<Login> {
   final _formKey = GlobalKey<FormState>();
   User user = User("", "");
   String url = "http://10.0.2.2:8080/login";
-  TextEditingController emailCtrl = TextEditingController();
-  TextEditingController passwordCtrl = TextEditingController();
+  TextEditingController emailController = TextEditingController();
+  TextEditingController passwordController = TextEditingController();
 
   Future save(user) async {
     var res = await http.post(Uri.parse(url),
@@ -60,7 +60,7 @@ class _LoginState extends State<Login> {
                                   alignment:Alignment.center ,
                                 ),
                                 TextFormField(
-                                  controller:emailCtrl ,
+                                  controller:emailController ,
                                   decoration: InputDecoration(
                                       labelText: "Email"
                                   ),
@@ -69,7 +69,7 @@ class _LoginState extends State<Login> {
                                   height: 10.0,
                                 ),
                                 TextFormField(
-                                  controller:passwordCtrl ,
+                                  controller:passwordController ,
                                   decoration: InputDecoration(
                                         labelText: "Password"
                                   ),
@@ -97,7 +97,7 @@ class _LoginState extends State<Login> {
                                     onPressed: (){
                                       if(_formKey.currentState!.validate())
                                       {
-                                        save(User(emailCtrl.text,passwordCtrl.text));
+                                        save(User(emailController.text,passwordController.text));
                                       }
                                     },
                                     child: const Icon(

@@ -41,7 +41,6 @@ public class ScolariteSpringbootApplication {
 		SpringApplication.run(ScolariteSpringbootApplication.class, args);
 	}
 
-	@Override
 	public void run(String... args) throws Exception {
 		// Etudiant et = new Etudiant(null, "Ali", "Ben Ali", new Date());
 		// etudiantRepository.save(et);
