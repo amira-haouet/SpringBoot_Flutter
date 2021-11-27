@@ -18,4 +18,6 @@ public class User {
 	Integer id;
 	String email;
 	String password;
+	
+	
 }

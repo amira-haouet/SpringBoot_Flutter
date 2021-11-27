@@ -22,7 +22,7 @@ public class UserController {
 
 	@PostMapping("/login")
 	public User Login(@RequestBody User user) {
-		User oldUSer = userRepository.findByEmailAndPassword(user.email, user.password);
+		User oldUSer = userRepository.findByEmailAndPassword(user.getEmail(), user.getPassword());
 		return oldUSer;
 	}
 }
