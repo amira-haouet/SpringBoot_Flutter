@@ -44,6 +44,12 @@ class _LoginState extends State<Login> {
                         //mainAxisAlignment: MainAxisAlignment.center,
                         //crossAxisAlignment: CrossAxisAlignment.center,
                         children: <Widget>[
+                            SizedBox(
+                        height: 200,
+                        child: Image.asset(
+                          "assets/loginicone.png",
+                          fit: BoxFit.contain,
+                        )),
                           Container(
                             height: 520.0,
                             width: 340.0,
@@ -77,16 +83,29 @@ class _LoginState extends State<Login> {
                                 const SizedBox(
                                   height: 10.0,
                                 ),
-                                Center(
-                                  child: InkWell(
-                                    onTap: (){
-                                      Navigator.push(context, MaterialPageRoute(builder: (context)=>Register()));
-                                    },
-                                    child: Text("Dont have Account ?"),
-                                  ),
-                                ),
+                                Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: <Widget>[
+                          Text("Don't have an account? "),
+                          GestureDetector(
+                            onTap: () {
+                              Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) =>
+                                          Register()));
+                            },
+                            child: Text(
+                              "SignUp",
+                              style: TextStyle(
+                                  color: Colors.redAccent,
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 15),
+                            ),
+                          )
+                        ]),
 
-                               ElevatedButton(
+                            ElevatedButton(
                                     style: TextButton.styleFrom(
                                       textStyle: const TextStyle(fontSize: 20),
                                       backgroundColor: const Color.fromRGBO(233, 65, 82, 1),
@@ -100,11 +119,7 @@ class _LoginState extends State<Login> {
                                         save(User(emailController.text,passwordController.text));
                                       }
                                     },
-                                    child: const Icon(
-                                      Icons.search_outlined,
-                                      color:Colors.white,
-                                      size: 30,
-                                    ),
+                                    
                                   ),
 
 
