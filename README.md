@@ -25,7 +25,7 @@ http://localhost:8080/register
   Linux operating system. we can also use a Chrome OS machine, with a few tweaks.</li>
 <li> An Android/iOS setup.</li>
 <li> The Flutter SDK. It's free, light, and open source.</li>
-<li> Physical device/emulator/simulator <img src="https://img.icons8.com/fluency/30/000000/android.png"/> </li> 
+<li> Physical device/emulator/simulator </li> 
 <li> Android Studio/IntelliJ IDEA or Visual Studio Code</li>
   </ul>
 </div>
@@ -39,6 +39,7 @@ http://localhost:8080/register
   <img src="https://img.icons8.com/color/48/000000/java-coffee-bean-logo.png"/>&nbsp; &nbsp;
   <img src="https://img.icons8.com/color/48/000000/thymeleaf.png"/>&nbsp; &nbsp;
   <img src="https://img.icons8.com/fluency/48/000000/mysql-logo.png"/>&nbsp; &nbsp;
+   <img src="https://img.icons8.com/fluency/48/000000/android.png"/>&nbsp; &nbsp;
   <img src="https://img.icons8.com/color/48/000000/android-studio--v2.png"/>&nbsp; &nbsp;
   <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png"/>&nbsp; &nbsp;
   <img src="https://img.icons8.com/fluency/48/000000/android-os.png"/>
