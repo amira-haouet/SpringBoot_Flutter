@@ -16,8 +16,8 @@ http://localhost:8080/login
 
 http://localhost:8080/register
 ```
-##Use Docker
-`create container`
+## Use Docker
+`create container name newsql & databasename=mydb`
 
 ```
 docker run --name newsql -e MYSQL_ROOT_PASSWORD -e MYSQL_DADTABASE=mydb -d -p 3306:3306 mysql:latest
