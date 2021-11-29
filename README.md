@@ -1,8 +1,15 @@
-# SpringBoot_Flutter
+## Spring Boot Flutter Login Registration and Crud
 
 Access to database with API Rest spring boot via flutter application
 manage student , class, formation and user 
 Connecting Flutter with Spring Boot REST API
+
+`Git Clone`
+```
+git clone https://github.com/amira-haouet/SpringBoot_Flutter.git
+```
+
+
 
 ## Technical requirements (Tech & Tools)
 <div>
@@ -26,6 +33,6 @@ In order to start with Flutter, we need a few tools:
   <img src="https://img.icons8.com/color/48/000000/java-coffee-bean-logo.png"/>&nbsp; &nbsp;
   <img src="https://img.icons8.com/color/48/000000/thymeleaf.png"/>&nbsp; &nbsp;
    <img src="https://img.icons8.com/fluency/48/000000/mysql-logo.png"/>&nbsp; &nbsp;
-     <img src="https://img.icons8.com/color/48/000000/android-studio--v2.png"/>&nbsp; &nbsp;
+   <img src="https://img.icons8.com/color/48/000000/android-studio--v2.png"/>&nbsp; &nbsp;
   <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png"/>&nbsp; &nbsp;
 
