@@ -8,7 +8,11 @@ Connecting Flutter with Spring Boot REST API
 ```
 git clone https://github.com/amira-haouet/SpringBoot_Flutter.git
 ```
+`Url for POST API`
 
+http://localhost:8080/login
+
+http://localhost:8080/register
 
 
 ## Technical requirements (Tech & Tools)
