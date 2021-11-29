@@ -14,7 +14,7 @@ git clone https://github.com/amira-haouet/SpringBoot_Flutter.git
 ## Technical requirements (Tech & Tools)
 <div>
   <ul>
-In order to start with Flutter, we need a few tools:
+ In order to start with Flutter, we need a few tools:
 <li> A PC with a recent Windows version, or a Mac with a recent version of the macOS or
   Linux operating system. we can also use a Chrome OS machine, with a few tweaks.</li>
 <li> An Android/iOS setup.</li>
