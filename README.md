@@ -19,7 +19,7 @@ In order to start with Flutter, we need a few tools:
   Linux operating system. we can also use a Chrome OS machine, with a few tweaks.</li>
 <li> An Android/iOS setup.</li>
 <li> The Flutter SDK. It's free, light, and open source.</li>
-<li> Physical device/emulator/simulator</li>
+<li> Physical device/emulator/simulator <img src="https://img.icons8.com/fluency/30/000000/android.png"/> </li> 
 <li> Android Studio/IntelliJ IDEA or Visual Studio Code</li>
   </ul>
 </div>
